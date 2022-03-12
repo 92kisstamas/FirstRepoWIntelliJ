@@ -1,14 +1,16 @@
 package hu.progmatic;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
         // 1. feladat
 
-        System.out.println("Hi!");
+        /*System.out.println("Hi!");
         System.out.println("Adj meg egy évet!");
         Scanner scanner = new Scanner(System.in);
         //n > 1582 ; n % 4 == 0 ; n % 100 == 0 && n % 400 == 0;
@@ -21,6 +23,27 @@ public class Main {
             System.out.println("Az általad megadott év: " + ev + " szökőév.");
         }else{
             System.out.println("Az általad megadott év: " + ev + " nem szökőév.");
+        }*/
+
+        System.out.println("Add meg az ellenőrző számot:");
+        int ellenorzo = scanner.nextInt();
+        scanner.nextLine();
+        boolean pozitiv = ellenorzo > 0;
+        int i;
+        int[] osztok = new int[300];
+        for(i = 1; i <= ellenorzo; i++){
+            if(ellenorzo % i ==0){
+                int n =0;
+                osztok[n] = i;
+                n++;
+            }
         }
+
+        for(i =0; i <= osztok.length; i++){
+            System.out.println(osztok[i] + );
+
+        }
+
+
     }
 }
