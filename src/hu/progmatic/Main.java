@@ -49,7 +49,7 @@ public class Main {
         //3. feladat
 
         /*
-        int x = 3;
+        /*int x = 3;
         int y = 0;
 
         for (int i = 1; i <= x ; i++){
@@ -69,12 +69,14 @@ public class Main {
 
         int x = 12;
         int y= 48;
+        int z = 0;
 
         for (int i = 1; i <= x; i++){
-            while (i != x  ){
+                if (x % i == 0 && y % i ==0){
+                    z = i;
             }
         }
-
+        System.out.println("A legnagyobb közös osztó: "+ z);
 
     }
 }
