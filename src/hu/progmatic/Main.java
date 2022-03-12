@@ -67,7 +67,7 @@ public class Main {
 
         //4. feladat
 
-        int x = 12;
+        /*int x = 12;
         int y= 48;
         int z = 0;
 
@@ -77,6 +77,40 @@ public class Main {
             }
         }
         System.out.println("A legnagyobb közös osztó: "+ z);
+     */
+
+        //Gyakorló 1* 1. feladat
+
+        /*int x = 10;
+        int y = 0;
+
+        if (y == 0){
+            System.out.println("Nullával nem osztunk");
+        }else{
+            System.out.println(x/y);
+        }*/
+
+        /*//Gyakorló 1 2. feladat
+
+        int x = -1;
+        if (x <= 0){
+            System.out.println(x);
+        }else{
+            System.out.println(x-1);
+        }*/
+
+        /*//Gyakorló 1 3. feladat
+
+        int x = 5;
+
+        if(x == 0){
+            System.out.println("nulla");
+        }else if(x > 0){
+            System.out.println("pozitív");
+        }else{
+            System.out.println("negatív");
+        }*/
+
 
     }
 }
