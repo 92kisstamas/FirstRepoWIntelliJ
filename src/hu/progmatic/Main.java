@@ -48,6 +48,7 @@ public class Main {
 
         //3. feladat
 
+        /*
         int x = 3;
         int y = 0;
 
@@ -60,6 +61,18 @@ public class Main {
             System.out.println("Prím szám");
         }else{
             System.out.println("Nem prím szám");
+        }
+*/
+
+
+        //4. feladat
+
+        int x = 12;
+        int y= 48;
+
+        for (int i = 1; i <= x; i++){
+            while (i != x  ){
+            }
         }
 
 
