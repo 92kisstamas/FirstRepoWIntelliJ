@@ -111,6 +111,45 @@ public class Main {
             System.out.println("negatív");
         }*/
 
+        /*// Gyakorló 2 1. feladat
+
+        int hp1 = 100, ap1 = 10;
+        int hp2 = 80, ap2 = 50;
+        int kor = 1;
+        boolean elso = true;
+
+        while (hp1 > 0 && hp2 > 0 ){
+            hp1 -= ap2;
+            hp2 -= ap1;
+            System.out.println("Az " + kor+". kör: első medve életpontja "+ hp1 +" -re, másodiké "+ hp2 +" -re csökken");
+            kor++;
+        }
+        if (hp1 == hp2){
+            System.out.println("Döntetlen");
+        }else if (hp1 > hp2){
+            System.out.println("győztes = első medve");
+        }else{
+            System.out.println("győztes = második medve");
+        }*/
+
+        /*// Gyakorlo elemcsere
+        char ideiglenes = 'x';
+        char[] chars = {'A','B','C'};
+        if (chars.length != 0){
+            ideiglenes = chars[0];
+            chars[0] = chars[chars.length-1];
+            chars[chars.length-1]=ideiglenes;
+        }else {
+            System.out.println("Üres tömb");
+        }
+        System.out.println(chars);*/
+
+        //Elemcsere ha
+
+        int[] ints = { 1 , 2 , 3};
+
+        if (ints.length < 2 );
+
 
     }
 }
