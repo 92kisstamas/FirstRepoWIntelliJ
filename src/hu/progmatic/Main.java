@@ -29,7 +29,7 @@ public class Main {
 
         //2. feladat
 
-
+/*
         System.out.println("Add meg az ellenőrző számot:");
         int ellenorzo = scanner.nextInt();
         scanner.nextLine();
@@ -43,7 +43,7 @@ public class Main {
                 n++;
             }
         }
-        System.out.println(Arrays.toString(osztok));
+        System.out.println(Arrays.toString(osztok));*/
 
 
     }
