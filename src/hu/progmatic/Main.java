@@ -25,24 +25,24 @@ public class Main {
             System.out.println("Az általad megadott év: " + ev + " nem szökőév.");
         }*/
 
+        //2. feladat
+
+
         System.out.println("Add meg az ellenőrző számot:");
         int ellenorzo = scanner.nextInt();
         scanner.nextLine();
         boolean pozitiv = ellenorzo > 0;
         int i;
+        int n =0;
         int[] osztok = new int[300];
         for(i = 1; i <= ellenorzo; i++){
             if(ellenorzo % i ==0){
-                int n =0;
                 osztok[n] = i;
                 n++;
+                System.out.println(i + "osztója a számnak.");
             }
         }
 
-        for(i =0; i <= osztok.length; i++){
-            System.out.println(osztok[i] + );
-
-        }
 
 
     }
