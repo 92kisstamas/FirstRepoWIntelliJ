@@ -46,5 +46,22 @@ public class Main {
         System.out.println(Arrays.toString(osztok));*/
 
 
+        //3. feladat
+
+        int x = 3;
+        int y = 0;
+
+        for (int i = 1; i <= x ; i++){
+            if(x % i ==0){
+                y++;
+            }
+        }
+        if (y == 2){
+            System.out.println("Prím szám");
+        }else{
+            System.out.println("Nem prím szám");
+        }
+
+
     }
 }
