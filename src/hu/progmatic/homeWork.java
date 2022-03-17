@@ -249,7 +249,7 @@ public class homeWork {
 
         String abc = "__|_A_B_C_D_E_F_G_H \n";
         String def = "_|_0_1_0_1_0_1_0_1 \n";
-        String ghi = "_|_1_0_1_0_1_0_1_0 \n"
+        String ghi = "_|_1_0_1_0_1_0_1_0 \n";
 
 
 
