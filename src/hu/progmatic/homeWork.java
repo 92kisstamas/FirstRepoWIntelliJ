@@ -1,5 +1,6 @@
 package hu.progmatic;
 
+import java.math.BigInteger;
 import java.util.*;
 
 public class homeWork {
@@ -247,9 +248,26 @@ public class homeWork {
 
         //-------------- EXTREME -------------------------------------
 
-        String abc = "__|_A_B_C_D_E_F_G_H \n";
-        String def = "_|_0_1_0_1_0_1_0_1 \n";
-        String ghi = "_|_1_0_1_0_1_0_1_0 \n";
+        String abc = "    A B C D E F G H";
+        String def = " | 0 1 0 1 0 1 0 1";
+        String ghi = " | 1 0 1 0 1 0 1 0";
+
+        System.out.println(abc);
+        for (int i = 8; i > 0; i-=2) {
+            System.out.println(i + def);
+            System.out.println(i-1 + ghi);
+        }
+
+        //_______________________________________
+
+        BigInteger n1 = new BigInteger("19223372036854775807");
+        BigInteger n2 = new BigInteger("9223372036854775817");
+        BigInteger n3 = new BigInteger("1");
+        n3 = n1.add(n2);
+        System.out.println(n3);
+
+
+
 
 
 
